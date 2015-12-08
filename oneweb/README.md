@@ -11,7 +11,7 @@ Minimal docker image for oneweb tomcat installation.
 ### Quick Start ###
 
 * Clone this repo.
-* Download the oneweb-tomcat-sdk from [Nexus](https://maven.onewebuxp.allianz/index.html#nexus-search;gav~com.allianz.oneweb~com.allianz.oneweb.sdk.tomcat~feature-OW-2406-tomcat-SNAPSHOT~~).
+* Download the oneweb-tomcat-sdk from [Nexus](https://maven.onewebuxp.allianz/index.html#nexus-search;gav~com.allianz.oneweb~com.allianz.oneweb.sdk.tomcat~feature-OW-2406-tomcat-SNAPSHOT~~) and put it in the root of the cloned repo.
 * Built the docker imager: `docker build -t oneweb:latest .`.
 * Run the docker container from the image: `docker run --name oneweb -p 8081:8081 oneweb:latest`.
 
